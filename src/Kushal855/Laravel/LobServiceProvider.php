@@ -2,8 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 
-use Lob_Configuration;
-use Braintree_ClientToken;
+use Lob\Lob;
 
 use Blade;
 
