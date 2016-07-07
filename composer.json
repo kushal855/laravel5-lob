@@ -1,0 +1,29 @@
+{
+    "name": "kushal855/laravel5-lob",
+    "description": "Lob Service Provider for Laravel 5",
+    "keywords": ["lob","lob laravel 5"],
+    "homepage": "https://github.com/kushal855/laravel5-lob",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kushal I S",
+            "email": "kushal855@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "5.x",
+        "lob/lob-php": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Kushal855\\Laravel": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
