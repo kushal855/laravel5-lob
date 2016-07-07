@@ -1,4 +1,4 @@
-Braintree for Laravel 5
+Lob for Laravel 5
 ==============
 
 ### Installation
