@@ -19,7 +19,7 @@ Once installed, add the ServiceProvider to your provider array within `config/ap
 'providers' => [
 	....
 	/*
-	 * Braintree Service Provider
+	 * Lob Service Provider
 	 */
     'Kushal855\Laravel\LobServiceProvider',
 ]
@@ -33,6 +33,4 @@ php artisan config:publish kushal855/laravel-lob
 ```
 
 
-### Credits
 
-Thanks to the [bradleyboy/laravel-braintree](https://github.com/bradleyboy/laravel-braintree) package. I used it as a base and converted it into Laravel 5.
