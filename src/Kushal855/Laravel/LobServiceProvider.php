@@ -27,9 +27,7 @@ class LobServiceProvider extends ServiceProvider {
 		    __DIR__.'/../../config/lob.php' => config_path('kushal855.lob.php'),
 		]);
 
-		Lob_Configuration::apiKey(
-			$this->app['config']->get('kushal855.lob.api_key')
-		);
+		
 		
 	}
 
